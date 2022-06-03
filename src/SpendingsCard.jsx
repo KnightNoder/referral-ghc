@@ -19,7 +19,11 @@ export default function SpendingsCard({item}) {
                             Spent <span className='coins'>{item.value} MCash credits</span>  on Amazon Voucher code: #{item.order}
                         </div>
                         <div className='spending-image'> 
-                            <img src={coinPic} className='coin-pic' alt="" />
+                            {/* <img src={coinPic} className='coin-pic' alt="" /> */}
+                            <div className='mcash-currency-spendings-div'>
+                                <img src="https://cdn.shopify.com/s/files/1/0607/6029/3588/files/green-mcash.png?v=1654253888" alt="" srcset="" />
+                                {item.value}
+                            </div>
                         </div>
                     </div>
                     <div className='historyInfo'>

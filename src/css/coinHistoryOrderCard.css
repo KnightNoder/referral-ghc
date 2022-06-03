@@ -137,6 +137,28 @@
     color: white
 }
 
+.mcash-currency-earnings-div {
+    background: #FCF0D2;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 80px;
+    justify-content: space-around;
+    color: #726868;
+}
+
+.mcash-currency-spendings-div {
+    background: #FCF0D2;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 80px;
+    justify-content: space-around;
+    color: #726868;
+}
+
 @media only screen and (max-width: 480px){
     
     .historyContent{

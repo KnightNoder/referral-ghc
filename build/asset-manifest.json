@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1d3ab920.css",
+    "main.js": "/static/js/main.2f2aeb39.js",
+    "static/js/787.4425df6a.chunk.js": "/static/js/787.4425df6a.chunk.js",
+    "static/media/HarmoniaSansProCyr-Bold.ttf": "/static/media/HarmoniaSansProCyr-Bold.aa72cf7f5530ecb257b1.ttf",
+    "static/media/WalletCardImage.jpg": "/static/media/WalletCardImage.253143007e656a690204.jpg",
+    "static/media/HarmoniaSansProCyr-Regular.ttf": "/static/media/HarmoniaSansProCyr-Regular.dede1361379810144df9.ttf",
+    "static/media/Menu.jpg": "/static/media/Menu.3914b7b169cff13c2dd2.jpg",
+    "static/media/how.jpg": "/static/media/how.d3cd987dbfdd4097d5f0.jpg",
+    "static/media/rewardsImage.png": "/static/media/rewardsImage.ed8eac5b5fd7863862da.png",
+    "static/media/gift2.png": "/static/media/gift2.936bb2b02e8bf68ca0c2.png",
+    "index.html": "/index.html",
+    "main.1d3ab920.css.map": "/static/css/main.1d3ab920.css.map",
+    "main.2f2aeb39.js.map": "/static/js/main.2f2aeb39.js.map",
+    "787.4425df6a.chunk.js.map": "/static/js/787.4425df6a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d3ab920.css",
+    "static/js/main.2f2aeb39.js"
+  ]
+}

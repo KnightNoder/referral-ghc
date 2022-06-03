@@ -1,0 +1,212 @@
+
+@font-face {
+  font-family: harmonia-reg;
+  src: url(../fonts/HarmoniaSansProCyr-Regular.ttf);
+}
+
+
+@font-face {
+  font-family: harmonia-bold;
+  src: url(../fonts/HarmoniaSansProCyr-Bold.ttf);
+}
+
+html {
+  --mars-coins : rgb(254, 130, 118);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: harmonia-reg;
+}
+
+div:empty{
+  display: block;
+}
+
+a:not([href]) {
+  cursor: pointer;
+}
+
+.react-responsive-modal-modal{
+  height: 70%;
+  width: 30%;
+  border-radius: 16px;
+}
+
+@media only screen and (min-width: 1000px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+
+.coinBalanceCard{
+  height: 7.25rem;
+}
+
+.mainContainer{
+  margin-left: 13%;
+  margin-right: 13%;
+}
+
+  .coinBalanceHeading {
+    display: none;
+  }
+  .mobileReferralCode {
+    display: none;
+  }
+
+  .coupon {
+    border: 1px solid #c4c4c4;
+    margin-left: 3.3125rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+
+  .coinsOnYourWay {
+    margin-left: 0.9375rem;
+    margin-right: 0.875rem;
+  }
+
+  .onWayCardBody {
+    font-size: 1.5rem;
+  }
+
+  .coinsOnWayFlex {
+    margin-top: 2.25rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 8px;
+  }
+
+  .walletCardsContainer {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+
+  .coinsHistoryCard {
+    display: none;
+    box-shadow: none;
+  }
+
+  .walletCardImage {
+    height: 221px;
+    width: 100%;
+  }
+
+  .coinBalanceCardContainer {
+    height: 302px;
+    width: 100%;
+  }
+
+  
+  .walletCardImage,
+  .coinBalanceCardContainer {
+    margin: 5px 0px 5px 0px;
+  }
+
+  .headerCard,
+  .coinPic,
+  .coinsHistoryCard,
+  .rupee {
+    display: none;
+  }
+  .coinBalance {
+    margin-top: 12px;
+    margin-left: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 20px;
+  }
+
+
+  .howItWorksImageContainer {
+    box-shadow: none;
+  }
+
+  .howItWorksSectionCard {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .livePic {
+    height: 20px;
+    width: 20px;
+  }
+  .coinsOnYourWay {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  }
+
+  
+
+ 
+
+  .mobileReferralCode {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+
+  .earnings {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.0025em;
+    color: #000000;
+  }
+
+  .amount {
+    font-weight: 700;
+  }
+
+
+  .onWayCardBody {
+    font-size: 14px;
+  }
+
+  .coinsOnWayFlex {
+    margin-top: 12px;
+  }
+
+  /* .copyCoupon {
+    display: none;
+  } */
+  .howItWorksImageContainer {
+    box-shadow: none;
+  }
+
+  .mainContainer{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .coinBalanceCard{
+    height: 6.25rem;
+  }
+}

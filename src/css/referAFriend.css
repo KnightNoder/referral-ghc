@@ -9,7 +9,7 @@
   color: #ffffff;
 }
 
-.code {
+.code-div {
   max-width: 100%;
   overflow: auto;
   display: flex;
@@ -129,7 +129,7 @@
     font-size: 15px;
   }
 
-  .code {
+  .code-div {
     flex-direction: column;
     background: linear-gradient(-90deg, #1469B3 -1.36%, #222E54 77.79%); 
   }
@@ -176,7 +176,7 @@
     background: linear-gradient(-90deg, #1469B3 -1.36%, #222E54 77.79%);  
   }
 
-  .code {
+  .code-div {
     margin-bottom: 1.875rem;
     margin-right: 15%;
   }

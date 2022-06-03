@@ -45,7 +45,7 @@ export default function ReferAFriend() {
                 <div className="refer"> 
                     My Referral Code
                 </div>
-                <div className="code">
+                <div className="code-div">
                     <div className="coupon">
                         <div className="couponText">
                             {referral_code.toUpperCase()}

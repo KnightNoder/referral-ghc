@@ -1,7 +1,4 @@
-import HeaderAndMenu from './HeaderAndMenu'
-import Container from '@mui/material/Container';
 import ReferAndEarn from './ReferAndEarn';
-import ReferAFriend from './ReferAFriend';
 import WalletCards from './WalletCards';
 import HowItWorksCards from './HowItWorksCards';
 import { createContext, useEffect, useState } from 'react';
@@ -10,12 +7,9 @@ import BackNavigator from './BackNavigator';
 import RewardsAndBurns from './RewardsAndBurns';
 import React, {Component} from 'react'
 import {render} from 'react-dom';
-import axios from 'axios'
-import './css/coinHistoryCard.css'
-// import gift from './images/celeb-white-removebg-preview.jpg'
-// import gift from './images/celeb-white.png'
-// import './css/coinHistoryCard.css'
-import './css/App.css'
+import axios from 'axios';
+import './css/coinHistoryCard.css';
+import './css/App.css';
 
 const mobileViewContext = createContext();
 

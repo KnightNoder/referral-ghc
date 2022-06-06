@@ -25,11 +25,13 @@
 
   .howItWorksImageContainer2{
     display: block;
+    height: 350px;
+    width: 100%;
+    margin-top: 3%;
   }
 
   .image-container{
     margin-bottom: 100px;
-    margin-top: 30px
   }
 
   .how-it-works{
